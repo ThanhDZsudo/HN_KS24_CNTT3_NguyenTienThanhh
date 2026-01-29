@@ -114,18 +114,7 @@ public class HN_KS24_CNTT3_NguyenTienThanh {
                     break;
                 case 5:
                     System.out.print("Nhập chuỗi ký tự cần tìm: ");
-                    String keyword = sc.nextLine().toLowerCase();
-                    System.out.println("Kết quả tìm thấy");
-                    boolean hasResult = false;
-                    for (int i = 0; i < size; i++) {
-                        if (studentIds[i].toLowerCase().contains(keyword)) {
-                            System.out.println("+ " + studentIds[i]);
-                            hasResult = true;
-                        }
-                    }
-                    if (!hasResult) {
-                        System.err.println("Không tìm thấy kết quả nào.");
-                    }
+                    System.err.println("Không tìm thấy kết quả nào.");
                     break;
                 case 6:
                     System.out.println("Thoát chương trình.");
@@ -137,3 +126,4 @@ public class HN_KS24_CNTT3_NguyenTienThanh {
         }
     }
 }
+
